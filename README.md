@@ -31,5 +31,5 @@ Setup the environment variable called TF_VAR_id and TF_VAR_secret with AZURE cre
 ```
 4. Run the script file to configure kubectl
 ```
-   $ ./script.sh
+   $ terraform output kube_config > ~/.kube/config
 ```
