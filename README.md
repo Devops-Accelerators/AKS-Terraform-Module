@@ -16,7 +16,8 @@ It eliminates the burden of ongoing operations and maintenance by provisioning, 
 ```
 2. Verify the resources that will be created and create a plan.
 ```
-   $ terraform plan -out plan.out
+   //$ terraform plan -out plan.out//
+   $  terraform plan -out plan.out -var id=$TF_VAR_id -var secret=$TF_VAR_secret
 ```
 3. apply the above created plan and setup the infrastructure for the AKS 
 ```
