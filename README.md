@@ -1,4 +1,4 @@
-# **Azure-Kubernetes-Service using Terraform**
+# **Azure-Kubernetes-Service using Terraform modules**
 Terraform code (module format) to set up **AKS**
 
 **What is AKS ?**
